@@ -1,0 +1,20 @@
+apiAPIs, or Application Programming Interfaces, are sets of rules and protocols that allow different software applications to communicate with each other. They define the methods and data formats that applications can use to request and exchange information. Here’s an overview:
+
+Key Concepts of APIs
+Types of APIs:
+
+Web APIs: Often RESTful or SOAP services that allow communication over the internet. They enable applications to interact with web services.
+Library APIs: Interfaces for software libraries that allow developers to use pre-built functions and methods.
+Operating System APIs: Allow applications to interact with the operating system, accessing system resources like files and hardware.
+REST vs. SOAP:
+
+REST (Representational State Transfer): A lightweight architectural style that uses standard HTTP methods (GET, POST, PUT, DELETE). It often returns data in JSON or XML format.
+SOAP (Simple Object Access Protocol): A protocol that uses XML to encode messages. It’s more rigid and can be more complex than REST.
+Endpoints: Specific URLs where API requests are made. Each endpoint typically corresponds to a specific resource or action.
+
+Requests and Responses:
+
+HTTP Methods: Common methods include:
+GET: Retrieve data from a server.
+POST: Send data to a server to create a new resource.
+PUT: Update an existing resource.
