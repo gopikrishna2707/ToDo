@@ -1,0 +1,4 @@
+Combining Branches: Merging takes the changes from one branch (e.g., a feature branch) and integrates them into another branch (e.g., the main branch).
+
+Fast-Forward Merge: If the branch you're merging from is directly ahead of the branch you're on, Git will perform a fast-forward merge, simply moving the pointer forward.
+
