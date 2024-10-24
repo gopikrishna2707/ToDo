@@ -1,0 +1,41 @@
+
+:root {
+  --background-color-light: rgba(255, 255, 255, 0.9);
+  --background-color-dark: rgba(34, 34, 34, 0.9);
+  --text-color-light: black;
+  --text-color-dark: white;
+}
+
+.main {
+  text-align: center;
+  background-color: var(--background-color-light);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: var(--text-color-light);
+}
+
+.dark-theme .main {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+.night-mode-toggle {
+  background-color: rgb(198, 165, 229); /* Background color for the button */
+  color: white; /* Text color for the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for the button */
+  font-size: 1em; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.night-mode-toggle:hover {
+  background-color: #bdd3ff; /* Change background on hover */
+}
+
+.night-mode-toggle:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add shadow on focus */
+}
+

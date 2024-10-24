@@ -1,0 +1,87 @@
+:root {
+  --button-bg-light: #f0f4f8;
+  --button-bg-dark: #333;
+  --button-hover-bg-light: #001f61;
+  --button-hover-bg-dark: #4681f4;
+  --text-color-light: black;
+  --text-color-dark: white;
+}
+
+.button-container {
+  background-color: var(--button-bg-light);
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.button-container img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Keep original shape */
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.styled-button {
+  background-color: blueviolet;
+  color: var(--text-color-light);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+  background-color: var(--button-hover-bg-light);
+}
+
+.button-container:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease; 
+}
+
+.dark-theme .button-container {
+  background-color: var(--button-bg-dark);
+}
+
+.dark-theme .styled-button {
+  background-color: #4681f4; /* Dark mode button background */
+  color: var(--text-color-dark);
+}
+
+.dark-theme .styled-button:hover {
+  background-color: #001f61; /* Dark mode button hover background */
+}
+.user-container {
+  display: flex; /* Align items in a row */
+  align-items: flex-start; /* Align items vertically */
+}
+
+#users {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+}
+
+.user-task {
+  margin-left: 20px; /* Space between the list and text */
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+#users {
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+  }
+  .user-container {
+    display: flex; /* Align items in a row */
+    align-items: flex-start; /* Align items vertically */
+}
+
+.user-task {
+    margin-left: 20px; /* Space between the list and text */
+}
